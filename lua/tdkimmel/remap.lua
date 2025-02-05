@@ -1,8 +1,9 @@
-vim.keymap.set("n", "<leader>pd", vim.cmd.Ex)
-
 --Saving and quiting
 vim.keymap.set("n", "<leader>w", vim.cmd.w)
 vim.keymap.set("n", "<leader>Z", vim.cmd.xa)
+
+--Return to directory
+vim.keymap.set("n", "<leader>pd", vim.cmd.Ex)
 
 --Useful mappings
 vim.keymap.set("n", "<F2>", function()
