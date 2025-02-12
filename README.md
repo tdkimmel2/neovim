@@ -45,6 +45,16 @@ K = move highlighted block down one line
 \<C-y\> = confirm selected autocomplete item  
 \<C-space\> = idk...
 
+K = bring up hover menu
+gd = go to definition
+    \<C-o\> go back
+    \<C-i\> go forward
+gvd = go to definition in a vertical split
+ghd = go to definition in a horizontal split
+gr = display references, everywhere that this function is called
+\[d = go to next diagnostic item
+\]d = go to previous diagnostic item
+
 ## Harpoon
 
 \<leader\>ha = add file to harpoon list  
