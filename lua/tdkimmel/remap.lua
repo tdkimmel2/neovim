@@ -11,6 +11,10 @@ vim.keymap.set("n", "<F2>", function()
     vim.o.relativenumber = not vim.o.relativenumber
 end)
 
+--Execute current python script
+vim.keymap.set("n", "<F9>", ":silent exec '!python3' shellescape(@%, 1)<CR>")
+vim.keymap.set("i", "<F9>", "<ESC>:silent exec '!python3' shellescape(@%, 1)<CR>")
+
 --Remove highlighting
 --vim.keymap.set("n", "<leader>n", vim.cmd.noh)
 
