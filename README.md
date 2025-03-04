@@ -52,7 +52,7 @@ gd = go to definition\
 gvd = go to definition in a vertical split\
 ghd = go to definition in a horizontal split\
 gr = display references, everywhere that this function is called\
-\[d = go to next diagnostic item
+\[d = go to next diagnostic item\
 \]d = go to previous diagnostic item
 
 ## Harpoon
