@@ -5,6 +5,9 @@ vim.keymap.set("n", "<leader>Z", vim.cmd.xa)
 --Return to directory
 vim.keymap.set("n", "<leader>pd", vim.cmd.Ex)
 
+--Switch to previously edited file
+vim.keymap.set("n", "<BS>", "<C-^>")
+
 --Useful mappings
 vim.keymap.set("n", "<F2>", function()
     vim.o.number = not vim.o.number

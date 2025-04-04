@@ -27,6 +27,11 @@ N = go to previous search match like normal but keep cursor in middle of screen
 \<leader\>y = paste to system clipboard  
 \<leader\>Y = paste line to system clipboard
 
+Ctrl-o = jump back to the previous file/location
+Ctrl-i = jump forward to the next file/location
+Ctrl-6 = switch between previoiusly edited file
+Backspace = remapped to be the same as Ctrl-6
+
 Q = do nothing
 
 ## Insert Mode
