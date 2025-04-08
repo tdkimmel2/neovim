@@ -1,5 +1,10 @@
 # My setup for neovim
 
+## Requirements
+texlive-extras - latexmk for VimTeX\
+tree-sitter-cli - VimTeX\
+nodejs - VimTeX
+
 # Keybinds
 ## Normal Mode
 \<leader\> = ","
@@ -118,4 +123,3 @@ gr = display references, everywhere that this function is called\
 \\ll = start or stop compiling the document, if started it will recompile on every write\
 \\lk = stop the compilation process\
 \\lc = clear auxiliary files
-
