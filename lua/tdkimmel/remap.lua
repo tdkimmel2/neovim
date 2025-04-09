@@ -64,11 +64,6 @@ vim.api.nvim_create_autocmd("FileType", {
     pattern = {"latex", "tex"},
     callback = function()
         vim.keymap.set("i", "<leader>mb", make_block, {buffer = true})
-    end,
-})
-vim.api.nvim_create_autocmd("FileType", {
-    pattern = {"latex", "tex"},
-    callback = function()
         vim.keymap.set("i", "<leader>$", "$$<Left>")
     end,
 })
