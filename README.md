@@ -21,7 +21,7 @@ nodejs - VimTeX
 \<leader\>l = move one split window right
 
 \<leader\>{{ = auto close curly braces and put cursor in line between them\
-\<leader\>{ = auto close curly braces on same line and but cursor between them\
+\<leader\>{ = auto close curly braces on same line and put cursor between them\
 \<leader\>( = same for parens\
 \<leader\>[ = same for brackets\
 \<leader\>" = same for quotes
@@ -38,6 +38,10 @@ Ctrl-6 = switch between previoiusly edited file\
 \<backspace\> = remapped to be the same as Ctrl-6
 
 Q = do nothing
+
+### Latex
+\<leader\>mb = makes a block with begin and end\
+\<leader\>$ = auto close inline math on same line and put cursor between them
 
 ### Folding Commands - Standard Vim
 
