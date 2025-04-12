@@ -51,8 +51,8 @@ vim.keymap.set("n", "Q", "<nop>")
 --Latex
 local make_block = function()
     local begin_type = vim.fn.input("Block type: ")
-    local string1 = "\\begin(" .. begin_type .. ")"
-    local string2 = "\\end(" .. begin_type .. ")"
+    local string1 = "\\begin{" .. begin_type .. "}"
+    local string2 = "\\end{" .. begin_type .. "}"
     local row, col = unpack(vim.api.nvim_win_get_cursor(0))
     vim.api.nvim_buf_set_text(0, row-1, col, row-1, col, {string1})
     vim.api.nvim_buf_set_lines(0, row, row, false, {""})
