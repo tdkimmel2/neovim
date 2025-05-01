@@ -33,8 +33,8 @@ N = go to previous search match like normal but keep cursor in middle of screen
 \<leader\>y = paste to system clipboard \
 \<leader\>Y = paste line to system clipboard
 
-Ctrl-o = jump back to the previous file/location\
-Ctrl-i = jump forward to the next file/location\
+Ctrl-o = jump back to the previous cursor location or file\
+Ctrl-i = jump forward to the next cursor location or file\
 Ctrl-6 = switch between previoiusly edited file\
 \<backspace\> = remapped to be the same as Ctrl-6
 
