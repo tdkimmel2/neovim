@@ -9,6 +9,10 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
+vim.opt.foldmethod = "indent"
+vim.opt.foldenable = false
+vim.opt.foldlevel = 99
+
 vim.opt.smartindent = true
 
 vim.opt.wrap = true
@@ -29,4 +33,7 @@ vim.opt.signcolumn = 'yes'
 
 vim.opt.updatetime = 50
 
---vim.opt.colorcolumn = "80"
+vim.api.nvim_create_autocmd("FileType", {
+    pattern = {"systemverilog", "verilog"},
+    command = "setlocal tabstop=2 softtabstop=2 shiftwidth=2"
+})

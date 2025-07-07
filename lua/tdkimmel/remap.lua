@@ -26,6 +26,7 @@ vim.keymap.set("n", "<leader>l", "<C-W><C-L>")
 --Autoclose quotes, braces, curly braces, and parens
 vim.keymap.set("i", "<leader>{{", "{<CR>}<Esc>ko")
 vim.keymap.set("i", "<leader>{", "{}<Left>")
+vim.keymap.set("i", "<leader>((", "(<CR>)<Esc>ko")
 vim.keymap.set("i", "<leader>(", "()<Left>")
 vim.keymap.set("i", "<leader>[", "[]<Left>")
 vim.keymap.set("i", "<leader>\"", "\"\"<Left>")

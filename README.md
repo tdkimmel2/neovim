@@ -3,8 +3,7 @@
 ## Requirements
 texlive-extras - latexmk for VimTeX\
 tree-sitter-cli - VimTeX\
-nodejs - VimTeX\
-npm - lsp, pyright
+nodejs - VimTeX
 
 # Keybinds
 ## Normal Mode
