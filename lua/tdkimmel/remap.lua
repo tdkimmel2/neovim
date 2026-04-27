@@ -1,4 +1,4 @@
---Saving and quiting
+--Saving and quitting
 vim.keymap.set("n", "<leader>w", vim.cmd.w)
 vim.keymap.set("n", "<leader>Z", vim.cmd.xa)
 
@@ -12,6 +12,10 @@ vim.keymap.set("n", "<BS>", "<C-^>")
 vim.keymap.set("n", "<F2>", function()
     vim.o.number = not vim.o.number
     vim.o.relativenumber = not vim.o.relativenumber
+end)
+
+vim.keymap.set("n", "<F3>", function()
+    vim.opt.spell = not(vim.opt.spell:get())
 end)
 
 --Remove highlighting
