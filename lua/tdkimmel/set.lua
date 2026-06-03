@@ -33,6 +33,8 @@ vim.opt.signcolumn = 'yes'
 
 vim.opt.updatetime = 50
 
+vim.api.nvim_create_user_command("RemoveWhitespace", "%s/\\s\\+$//e", {})
+
 vim.api.nvim_create_autocmd("FileType", {
     pattern = {"systemverilog", "verilog"},
     command = "setlocal tabstop=2 softtabstop=2 shiftwidth=2"
