@@ -15,6 +15,10 @@ vim.opt.foldlevel = 99
 
 vim.opt.smartindent = true
 
+-- Ignore case when searching unless case is used to search
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
 vim.opt.wrap = true
 
 vim.opt.swapfile = false
